@@ -1,0 +1,27 @@
+{
+  "name": "tdd-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start --single-run",
+    "tdd": "karma start --auto-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/disist/tdd-workshop.git"
+  },
+  "author": "Dmytro Golysh <disist357@gmail.com> (https://github.com/disist)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/disist/tdd-workshop/issues"
+  },
+  "homepage": "https://github.com/disist/tdd-workshop#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.6.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4"
+  }
+}
